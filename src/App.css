@@ -3,7 +3,21 @@ body {
   color: #ffffff;
 }
 
-.movie-app > .row {
+.movie-app {
+  display: flex;
+}
+
+.details-panel {
+  background: #271f747c;
+  flex:2;
+}
+
+.posters-wrapper {
+  flex:3;
+  overflow: auto;
+}
+
+.posters-wrapper > .row {
   overflow: auto;
   flex-wrap: nowrap;
 }
